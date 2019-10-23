@@ -10,7 +10,6 @@ def funcJType(array)
 	end
 	y
 end
-
 def funcIType(array)
 		#Branch Instructions
 		if array == '000100'
@@ -81,9 +80,8 @@ def funcIType(array)
 		y
 end
 
-
 def funcRType(array)
- 	# ArithmeticandLogicalInstructions
+ 	
  	if array == '100000'
  		y = 'add'
  	end

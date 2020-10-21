@@ -335,6 +335,7 @@ end
 
 
 def Jtype(var)
+      puts '**** function Jtype *****'
 	aux = var.take(6) 
 	opcode = aux.join
 
@@ -345,6 +346,7 @@ def Jtype(var)
 end
 
 def Itype(var)
+      puts '**** function Itype *****'
 		#opcode
 		aux = var.take(6) 
 		opcode = aux.join
@@ -387,7 +389,8 @@ def Itype(var)
 end
 
 def Rtype(var)
-	#opcode
+    puts '**** function Rtype *****'
+    #opcode
 	aux = var.take(6) 
 	opcode = aux.join
 
@@ -428,7 +431,7 @@ def Rtype(var)
 end
 
 #leitura do txt 
-
+puts ' reading file : teste.txt'
 _file = File.open('teste')
 	binary = []
 
@@ -466,6 +469,7 @@ _file = File.open('teste')
 		end
 	end
 
+    puts ' closing file : teste.txt'
 _file.close
 
 
